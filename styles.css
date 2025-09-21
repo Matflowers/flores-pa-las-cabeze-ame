@@ -1370,4 +1370,19 @@ body {
 .container * {
   -webkit-animation-play-state: paused !important;
           animation-play-state: paused !important;
+  #botonMusica {
+  position: absolute; /* Lo quita del flujo normal para poder moverlo */
+  top: 50%; /* Lo centra verticalmente */
+  left: 50%; /* Lo centra horizontalmente */
+  transform: translate(-50%, -50%); /* Lo ajusta para que el centro del botón quede en el centro de la pantalla */
+  padding: 10px 20px; /* Le da espacio interno para que sea más grande */
+  background-color: #ffd700; /* Un color amarillo, a juego con las flores */
+  color: #333; /* El color del texto */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1000; /* Lo pone por encima de los otros elementos */
+  font-family: sans-serif;
+  font-size: 16px;
+
 }/*# sourceMappingURL=main.css.map */
